@@ -1,7 +1,7 @@
 def invDigitos(n):
     inverso = 0
     ultimo = 0
-
+    negativo = False
     if n<0:
         negativo = True
         n = n * -1
